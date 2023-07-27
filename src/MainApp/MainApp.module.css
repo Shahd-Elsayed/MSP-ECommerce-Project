@@ -52,8 +52,8 @@ header{
 }
 .cartIcon{
   border-radius: 50px;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   background: var(--blueColor);
   padding: 7px;
 }
@@ -78,9 +78,6 @@ header{
   position: absolute;
   bottom: 0;
   left: -5px;
-}
-.total , .total h2 {
-  background-image: none;
 }
 .total{
   background: var(--blueColor);
