@@ -1,0 +1,131 @@
+/* START PRODUCTS SECTION STYLE */
+.products{
+  display: grid;
+  grid-template-columns:repeat(auto-fill,minmax(170px,1fr)) ;
+  gap: 23px;
+  overflow-y: scroll;
+  height: 70vh;
+  padding: 0 20px;
+}
+.products::-webkit-scrollbar{
+  display: none;
+}
+.product{
+    background: #5e73de;
+    border-radius: 20px;
+  }
+  .productImg{
+    height: 120px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position:center;
+  }
+  .productDes{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+  }
+  .productTitle{
+    font-size: 25px;
+  }
+  .productPrice{
+    display: flex;
+  }
+  .productPrice sub{
+    align-self: flex-end;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  .productPrice p{
+    font-size: 20px;
+  }
+  .productOffer{
+    display: flex;
+    gap: 5px;
+  }
+  .oldPrice{
+    color: black;
+    font-size: 20px;
+  }
+  .offer{
+    color: #7fb901;
+    font-size: 20px;
+  }
+  .addBtn{
+    width: 100%;
+    padding: 10px;
+    background: var(--blueColor);
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  /* END PRODUCTS SECTION STYLE */
+
+  /* START Responsive */
+  @media screen and (max-width:1200px) {
+    .products{
+      gap: 15px;
+    }
+    .productImg{
+    height: 150px;
+  }
+  .productDes{
+    gap: 10px;
+    padding: 15px;
+    }
+    .productTitle{
+      font-size: 25px;
+    }
+    .productPrice sub{
+      font-size: 16px;
+    }
+    .productPrice p{
+      font-size: 20px;
+    }
+    .productOffer del{
+    font-size: 20px;
+    }
+    .productOffer p{
+      font-size: 20px;
+    }
+  .addBtn{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:768px) and (min-width:320px) {
+  .products{
+    grid-template-columns:repeat(auto-fill,minmax(170px,220px)) ;
+    height: 40vh;
+    padding: 0;
+    gap: 15px;
+    justify-content: center;
+  }
+  .productTitle{
+    font-size: 22px;
+  }
+  .productDes{
+    gap: 5px;
+    padding: 10px 15px;
+  }
+  .productImg{
+    height: 140px;
+  } 
+  .productPrice sub{
+    font-size: 16px;
+  }
+  .productPrice p{
+    font-size: 18px;
+  }
+  .productOffer del{
+  font-size: 18px;
+  }
+  .productOffer p{
+    font-size: 18px;
+  }
+  .addBtn{
+    font-size: 18px;
+  }
+}
+/* END Responsive */

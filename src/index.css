@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Fleur+De+Leah&family=Playfair+Display:ital,wght@1,500&display=swap');
+:root{
+  --background-color1:#480a82 ;
+  --background-color2:#4d269a;
+  --background-color3:#554aba;
+  --background-color4:#5f78e2;
+  --background-color5:#6491f8;
+  --blueColor: #6699ff;
+  --pinkColor:#fb2aab;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(150deg,var(--background-color1), var(--background-color2),var(--background-color3),var(--background-color4),var(--background-color5) );
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: hidden;
+}
+h1{
+  font-family: 'Bungee', cursive;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+::-webkit-scrollbar{
+  width: 4px;  
+}
+::-webkit-scrollbar-track{
+  background-color: var(--blueColor);
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #5f78e2;
+  border-radius: 40px;
+}
+button{
+  cursor: pointer;
+}
