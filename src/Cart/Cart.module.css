@@ -68,9 +68,9 @@ height: 1.5px;
 width: 100%;
 margin: 20px 0;
 }
-/* .line:last-of-type{
+.cartProduct:last-of-type .line {
     display: none;
-} */
+}
 
 /* END CART PRODUCTS SECTION */
 
